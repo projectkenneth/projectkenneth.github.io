@@ -1,0 +1,185 @@
+/* Webfont: koliko-Bold */
+
+@font-face {
+    font-family: 'kolikoRegular';
+    src: url('../fonts/koliko-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/koliko-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/koliko-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/koliko-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/koliko-Regular.svg#koliko-Regular') format('svg');
+    /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 45px 20px;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #000;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #000;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #3c83a5;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #000;
+}
+
+.row {
+    display: flex;
+}
+
+.row-align-center {
+    align-items: center;
+}
+
+.row-justify-center {
+    justify-content: center;
+}
+
+.row-wrap {
+    flex-wrap: wrap;
+}
+
+.row .col-full {
+    flex-basis: 100%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.visually-hidden {
+    display: block;
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 720px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header .logo {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.row-vertical {
+    flex-direction: column;
+}
+
+.i-am-text {
+    font-size: 2em;
+    padding: 3px 5px;
+}
+
+h1.my-name {
+    display: block;
+    font-family: "kolikoRegular", Georgia;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: -5px;
+    font-size: 1.1em;
+    margin: 12px 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 0.9em;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+section {
+    gap: 15px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.projects a.project-wrapper {
+    flex-basis: 40%;
+    padding: 45px 30px;
+    border-radius: 10px;
+    background-color: #eee;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.projects a.project-wrapper:hover {
+    color: #000;
+    background-color: #ddd;
+}
+
+.projects .col h3 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+nav {
+    gap: 50px;
+    font-size: 2.5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    margin: 32px 0px 16px 0px;
+}
